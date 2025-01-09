@@ -1,0 +1,25 @@
+.layout{
+
+    grid-template-areas: 
+    "nav header"
+    "nav main"
+    "nav footer"
+}
+
+.header{
+    grid-area: header;
+    
+}
+
+.nav{
+    grid-area: nav;
+    background-color: red;
+}
+
+.main{
+grid-area: main;
+}
+
+.footer{
+grid-area: footer;
+}
